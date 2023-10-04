@@ -29,11 +29,7 @@
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
   // add your own custom tests in here
-  console.log(hasTargetSum([3, 8, 12, 4, 11, 7], 10)); // Expected output: true
-console.log(hasTargetSum([22, 19, 4, 6, 30], 25));  // Expected output: true
-console.log(hasTargetSum([1, 2, 5], 4));           // Expected output: false
-console.log(hasTargetSum([], 10));                  // Expected output: false (edge case)
-console.log(hasTargetSum([1, 2, 2, 3], 4));        // Expected output: true (multiple pairs add up to 4)
+
 
   console.log("Expecting: true");
   console.log("=>", hasTargetSum([3, 8, 12, 4, 11, 7], 10));
